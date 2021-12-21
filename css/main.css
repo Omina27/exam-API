@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.card:hover {
+    background-color: #ac6565;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.conWrapper {
+    align-items: center;
+    justify-content: center;
+    max-width: 35%;
+    padding: 8px;
+    border: 2px solid red;
+}
+
+/* .conWrapper:last-child{
+    border-right:none;
+} */
+
+
+
+.card{
+    position: relative;
+}
+
+.card__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
